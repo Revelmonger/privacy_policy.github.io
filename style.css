@@ -16,35 +16,20 @@ body .background {
 	opacity: 0.9;
 	background-image: radial-gradient(#524e4e 1px, #000000 1px);
 	background-size: 50px 50px;
+	margin-top: 0px;
+	padding-top: 0px;
+
 }
 
 main {
 	/*Positioning*/
-	position: fixed;
+	position: relative;
 	width: 60vw;
-	margin: 10vh 20vw 0 20vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 
+	margin-left: 20vw;
+	padding-top: 10vh;
 
-	/* Default Styling for content */
-	color: white;
-}
-
-
-
-main h1 {
-
-	font-size: 72px;
-}
-
-main p {
-	margin-top: -10px;
-	margin-left: 5px;
-}
-
-hr {
-	border: 1px solid rgb(74, 74, 74);
-	border-radius: 30%;
 }
